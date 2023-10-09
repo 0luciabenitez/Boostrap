@@ -35,6 +35,10 @@ li.list-group-item{
     visibility: hidden;
   }
 }
+
+.card{
+  background-color: #f8f9fa;
+}
   
 
 .container{
