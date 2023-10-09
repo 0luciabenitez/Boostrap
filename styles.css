@@ -1,0 +1,51 @@
+
+.carousel, .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+  color: #000;
+}
+
+.col{
+  float: left;
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+li.list-group-item{
+  background-color: white;
+}
+
+.card {
+  display: block;
+  margin: 2rem;
+  margin-left: -30px;
+  border-radius: 10px;
+ /* Hacer invisible la tarjeta */
+  @media (max-width: 1668px) {
+    visibility: hidden;
+  }
+}
+  
+
+.container{
+display:flex;
+justify-content:space-between;
+flex-direction: row;
+
+
+/* Posicionar las columnas cuando la pantalla se hace mas pequeña */
+@media (max-width: 1628px) {
+  flex-direction: column;
+}
+}
+
